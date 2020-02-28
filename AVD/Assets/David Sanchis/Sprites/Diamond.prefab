@@ -11,11 +11,11 @@ GameObject:
   - component: {fileID: 4960401320502598690}
   - component: {fileID: -5742689697886235293}
   - component: {fileID: 6840622104454120070}
-  - component: {fileID: -6047548249686382939}
-  - component: {fileID: -876704751564755735}
+  - component: {fileID: -4134792078525204891}
+  - component: {fileID: 1032889557321681123}
   m_Layer: 0
   m_Name: Diamond
-  m_TagString: Untagged
+  m_TagString: Items
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -103,7 +103,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &-6047548249686382939
+--- !u!114 &-4134792078525204891
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -115,16 +115,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4a0d58f888c4854094be07173b972d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!65 &-876704751564755735
-BoxCollider:
+  other: {fileID: 1032889557321681123}
+  puntos: 10
+--- !u!61 &1032889557321681123
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6485691597569932635}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
   m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.00043858588, y: 0.0039473176}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.15, y: 0.13}
+    newSize: {x: 0.15, y: 0.13}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.10508932, y: 0.08916536, z: 0.2}
-  m_Center: {x: -0.00040827692, y: 0.0016333908, z: 0}
+  m_Size: {x: 0.11052677, y: 0.09052682}
+  m_EdgeRadius: 0

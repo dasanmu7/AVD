@@ -4,12 +4,18 @@ using UnityEngine;
 
 public class pickup : MonoBehaviour
 {
-    void OnTriggerEnter2D(Collider2D other)
+    public Collider2D other;
+    public int puntos;
+    bool activo = true;
+   
+    void OnTriggerEnter2D()
     {
-        //Check the provided Collider2D parameter other to see if it is tagged "PickUp", if it is...
-        if (other.gameObject.CompareTag("Item"))
+        
+        if (other.gameObject.CompareTag("Items") && activo)
         {
+            activo = false;
             other.gameObject.SetActive(false);
+             scoreScript.scoreValue += puntos;
         }
     }
 }

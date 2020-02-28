@@ -12,10 +12,10 @@ GameObject:
   - component: {fileID: 8269510427209626353}
   - component: {fileID: 1660737506941046841}
   - component: {fileID: 4640235187669236888}
-  - component: {fileID: 2472135976625465373}
+  - component: {fileID: 1451557435071609721}
   m_Layer: 17
   m_Name: Cherry
-  m_TagString: Untagged
+  m_TagString: Items
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -115,16 +115,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4a0d58f888c4854094be07173b972d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!65 &2472135976625465373
-BoxCollider:
+  other: {fileID: 1451557435071609721}
+  puntos: 5
+--- !u!61 &1451557435071609721
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6516647808227191155}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
   m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.024521459, y: -0.0005573034}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.21, y: 0.21}
+    newSize: {x: 0.21, y: 0.21}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.14522174, y: 0.13554119, z: 0.2}
-  m_Center: {x: -0.02272072, y: 0.00048349798, z: 0}
+  m_Size: {x: 0.14535248, y: 0.13309176}
+  m_EdgeRadius: 0

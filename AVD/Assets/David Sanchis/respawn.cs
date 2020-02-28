@@ -6,6 +6,10 @@
  
      void FixedUpdate () {
         if (transform.position.y < threshold)
-           transform.position = new Vector3(transform.position.x, 1f, transform.position.z);
+        {
+            GetComponent<Rigidbody2D>().Sleep();
+            transform.position = new Vector3(transform.position.x, 1.5f, transform.position.z);
+            GetComponent<Rigidbody2D>().Sleep();
+        }
      }
  }
