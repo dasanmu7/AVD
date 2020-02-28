@@ -68,7 +68,7 @@ public class PlayerControl2D : MonoBehaviour
 
   
 
-       // animator.SetFloat("Speed", Mathf.Abs(horizontalMove)); 
+        animator.SetFloat("Speed", Mathf.Abs(horizontalMove)); 
 
   
 
@@ -78,7 +78,7 @@ public class PlayerControl2D : MonoBehaviour
 
             jump = true; 
 
-          // animator.SetBool("IsJumping", true); 
+            animator.SetBool("IsJumping", true); 
 
         } 
 
@@ -110,7 +110,7 @@ public class PlayerControl2D : MonoBehaviour
 
     { 
 
-       // animator.SetBool("IsJumping", false); 
+       animator.SetBool("IsJumping", false); 
 
     } 
 
@@ -118,7 +118,7 @@ public class PlayerControl2D : MonoBehaviour
 
     { 
 
-     //   animator.SetBool("IsCrouching", isCrouching); 
+     animator.SetBool("IsCrouching", isCrouching); 
 
     } 
 

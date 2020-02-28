@@ -492,12 +492,12 @@ InputManager:
     negativeButton: 
     positiveButton: c
     altNegativeButton: 
-    altPositiveButton: 
+    altPositiveButton: down
     gravity: 1000
     dead: 0.001
     sensitivity: 1000
     snap: 0
     invert: 0
     type: 0
-    axis: 5
+    axis: 0
     joyNum: 0
