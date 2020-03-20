@@ -8,20 +8,40 @@ ModelImporter:
     second: idle
   externalObjects:
   - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cigar_Mat
+    second: {fileID: 2100000, guid: 8816dc33a0a8780468560338fab40702, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Clothes_MAT
+    second: {fileID: 2100000, guid: 1f5baf0635eba60448a7bc63dc45a2b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Eyes_MAT
+    second: {fileID: 2100000, guid: 8fda9bbea194d88449bca5184f4c74c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Skin_MAT
+    second: {fileID: 2100000, guid: 506fe5efaa95d674cb12f2d34004dbe1, type: 2}
+  - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Boss_diffuse
-    second: {fileID: 2800000, guid: e9ad5e003391542448dcadda167b705f, type: 3}
+    second: {fileID: 2800000, guid: a24172859cb20d247abb5a2174d2b0af, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Boss_normal
-    second: {fileID: 2800000, guid: ca4a7f59bda2f7d46814ef5dd0afd661, type: 3}
+    second: {fileID: 2800000, guid: 1ad6ebd5ac7141f4d8ed4293b53083f1, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Boss_specular
-    second: {fileID: 2800000, guid: c103a21f2f98ca441aa93c555bb84e86, type: 3}
+    second: {fileID: 2800000, guid: 094b42933065eaa4aa0a57aedbd302fd, type: 3}
   materials:
     materialImportMode: 1
     materialName: 0
@@ -116,8 +136,23 @@ ModelImporter:
     normalSmoothingSource: 0
   referencedClips:
   - da956933eb3ec8d4495d6db32ea395af
-  - 0fe799bbd9963c54faaf9898637aee70
+  - 20882d9a5a99a7747be9d39a5c32c8ed
+  - 3df76e08661219b4aadd2d865f4b9262
+  - 679b15c48023e74409479b9f66b19fd7
+  - 4d683d87a88bbae4cb2998d1342b1f4d
+  - 524bb99e96f3f2e479a40c4f7deafb91
+  - 7ddaf08386c5b92459589c2581a29328
+  - 461f6535f6214d94081c7cc7a85b78e2
+  - 3103f4cd66ccb58468c432b115e40395
+  - 0eef371b7811c454892b4ec9f30a26b1
+  - 4c1e17ab8ee79714a82757dce7a531f6
+  - 421dec23a3943234ead72996b7e65220
+  - 1ff4efd76c0ad654f950561b39a6aad3
   - 978ce6a2d87857f45b6ad4564262d9aa
+  - c731250a9e9a2b244bf0e9dc0336d371
+  - 4be73da7f4ba9074b812d897c4d90ef9
+  - cd8e6e7024e4f174aa41c9aad64b3262
+  - 6a530a520b4424748b1d733fe0c7ecc1
   - af6ac10d3bb2d814b957b34225b79372
   importAnimation: 1
   humanDescription:
