@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -513,7 +513,6 @@ GameObject:
   - component: {fileID: 233088402}
   - component: {fileID: 233088401}
   - component: {fileID: 233088400}
-  - component: {fileID: 233088399}
   m_Layer: 0
   m_Name: Capsule
   m_TagString: Untagged
@@ -535,18 +534,6 @@ Transform:
   m_Father: {fileID: 1076467705}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &233088399
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 233088397}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6535fe921cc2fc4293dc3859d4ea36c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!136 &233088400
 CapsuleCollider:
   m_ObjectHideFlags: 0
